@@ -1,0 +1,21 @@
+/* this is to make the background of the exercise webpage purple*/
+
+body {
+    background-color: purple;
+}
+
+
+/*This will make my heading text in white font.*/
+h1 {
+    color: white;
+}
+
+/*This will make the font for my paragraphs fuscia*/
+p {
+    color: fuchsia;
+}
+
+/*We want the background color of any unordered lists to be silver*/
+ul {
+    background-color: silver;
+}
