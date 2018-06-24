@@ -1,0 +1,83 @@
+/*This is the code that affects the body of the webpages. Sets a photo to be the website background.*/
+body {
+    background-image: url("http://i.imgur.com/O7ZWigt.png");
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+/*This changes the header font*/
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: left;
+    text-decoration: italic;
+}
+
+/*This code affects the text of the value proposition on the homepage.*/
+
+#value_prop {
+    text-align: center;
+}
+
+/*Added navbar CSS from W3schools*/
+/* Add a black background color to the top navigation. Changed colors. Original color was #333 black */
+.topnav {
+    background-color: blue;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: black;
+    color: white;
+}
+
+/*End of the code affecting the Navagational bar.*/
+
+/*This code affects the homepage*/
+
+/*This modifies the homepage "start your journey" text*/
+
+#homepage_h2 {
+    text-align: center;
+    color: black;
+    padding-right: 25%;
+
+}
+
+/*Modifying the homepage buttons. */
+
+/*Making the first button blue, with rounded edges (border-radius) and black borders*/
+
+#button_1 {
+    background-color: #008CBA;
+    border: 2px solid #555555;
+    color: black;
+    border-radius: 12px;
+    text-align: center;
+}
+
+#button_2 {
+    background-color: red;
+    border: 2px solid #555555;
+    color: white;
+    border-radius: 12px;
+    text-align: center;
+}
